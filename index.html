@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Assignment</title>
+</head>
+
+<body>
+  <h1>Job Freak</h1>
+  <h2>Front End internship Assignment</h2>
+
+  <main>
+
+    <nav>
+      <li onclick="changeSection('home')" class="section_content">Home</li>
+      <li onclick="changeSection('About')" class="section_content">About</li>
+      <li onclick="changeSection('contact')" class="section_content">Contact</li>
+      <li onclick="changeSection('Address')" class="section_content">Address</li>
+    </nav>
+
+    <div class="section_panel">
+
+      <section class="show" id="home">
+        <h3>Home</h3>
+        <p>This is the Home Section</p>
+      </section>
+
+      <section class="hide" id="About">
+        <h3>About</h3>
+        <p>This is the About Section</p>
+      </section>
+
+      <section  class="hide" id="contact">
+        <h3>Contact</h3>
+        <p>This is the Contact Section</p>
+      </section>
+
+      <section class="hide" id="Address">
+        <h3>Address</h3>
+        <p>This is the Address Section</p>
+      </section>
+
+
+    </div>
+
+  </main>
+  <script src="index.js"></script>
+</body>
+
+</html>
